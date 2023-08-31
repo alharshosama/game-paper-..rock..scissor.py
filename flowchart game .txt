@@ -1,0 +1,76 @@
+   This flowchart is the game paper rock scissor
+
+
+START
+|
+V
+Enter Player 1's choice (Rock, Paper, or Scissors)
+|
+V
+Is Player 1's choice valid?
+|
+V
+No --> Invalid choice, display error message and end the game.
+|
+V
+Yes --> Proceed to next step.
+|
+V
+Enter Player 2's choice (Rock, Paper, or Scissors)
+|
+V
+Is Player 2's choice valid?
+|
+V
+No --> Invalid choice, display error message and end the game.
+|
+V
+Yes --> Proceed to next step.
+|
+V
+Is Player 1's choice the same as Player 2's choice?
+|
+V
+Yes --> It's a tie! Display tie message and end the game.
+|
+V
+No --> Proceed to next step.
+|
+V
+Is Player 1's choice Rock?
+|
+V
+Yes --> Is Player 2's choice Scissors?
+|
+V
+Yes --> Player 1 wins! Display Player 1 wins message and end the game.
+|
+V
+No --> Player 2 wins! Display Player 2 wins message and end the game.
+|
+V
+Is Player 1's choice Paper?
+|
+V
+Yes --> Is Player 2's choice Rock?
+|
+V
+Yes --> Player 1 wins! Display Player 1 wins message and end the game.
+|
+V
+No --> Player 2 wins! Display Player 2 wins message and end the game.
+|
+V
+Is Player 1's choice Scissors?
+|
+V
+Yes --> Is Player 2's choice Paper?
+|
+V
+Yes --> Player 1 wins! Display Player 1 wins message and end the game.
+|
+V
+No --> Player 2 wins! Display Player 2 wins message and end the game.
+|
+V
+END
